@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tesseract-OCR", "Tesseract-OCR\Tesseract-OCR.csproj", "{EEA90B7B-B6A9-42E9-9542-A5A55628ED1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{178ED748-BE3B-48F5-974D-2D4F267B0204}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA90B7B-B6A9-42E9-9542-A5A55628ED1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA90B7B-B6A9-42E9-9542-A5A55628ED1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA90B7B-B6A9-42E9-9542-A5A55628ED1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA90B7B-B6A9-42E9-9542-A5A55628ED1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFD557BA-6EF4-4255-8EA6-C11E9E300881}
+	EndGlobalSection
+EndGlobal
