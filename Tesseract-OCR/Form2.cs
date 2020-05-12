@@ -28,6 +28,7 @@ namespace Tesseract_OCR
             cbConditionB.Checked = true;
             cbConditionC.Checked = true;
             cbConditionD.Checked = true;
+            this.rdbtn1.Checked = true;
         }
 
         private void btnCapture_Click(object sender, EventArgs e)
@@ -66,6 +67,7 @@ namespace Tesseract_OCR
                 if (!isDetecting)
                 {
                     isDetecting = true;
+                    this.schedule.mailCount = this.rdbtn1.Checked ? 1 : 2;
                     this.schedule.Run();
                     this.lblScanResult.Text = this.schedule.scanResult;
                     this.lblScanTotal.Text = this.schedule.sumScores.ToString();

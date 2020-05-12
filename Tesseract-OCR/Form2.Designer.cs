@@ -63,6 +63,9 @@
             this.cbConditionD = new System.Windows.Forms.CheckBox();
             this.cbConditionA = new System.Windows.Forms.CheckBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.rdbtn1 = new System.Windows.Forms.RadioButton();
+            this.rdbtn2 = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -103,17 +106,20 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.rdbtn2);
+            this.groupBox1.Controls.Add(this.rdbtn1);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtBoxMaintenance);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.txtBoxScanTime);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(16, 204);
+            this.groupBox1.Location = new System.Drawing.Point(16, 197);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(302, 99);
+            this.groupBox1.Size = new System.Drawing.Size(302, 116);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Settings:";
@@ -427,6 +433,38 @@
             this.groupBox5.Text = "Captured Space:";
             this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
+            // rdbtn1
+            // 
+            this.rdbtn1.AutoSize = true;
+            this.rdbtn1.Location = new System.Drawing.Point(130, 81);
+            this.rdbtn1.Name = "rdbtn1";
+            this.rdbtn1.Size = new System.Drawing.Size(31, 17);
+            this.rdbtn1.TabIndex = 6;
+            this.rdbtn1.TabStop = true;
+            this.rdbtn1.Text = "1";
+            this.rdbtn1.UseVisualStyleBackColor = true;
+            // 
+            // rdbtn2
+            // 
+            this.rdbtn2.AutoSize = true;
+            this.rdbtn2.Location = new System.Drawing.Point(193, 81);
+            this.rdbtn2.Name = "rdbtn2";
+            this.rdbtn2.Size = new System.Drawing.Size(31, 17);
+            this.rdbtn2.TabIndex = 7;
+            this.rdbtn2.TabStop = true;
+            this.rdbtn2.Text = "2";
+            this.rdbtn2.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(16, 81);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Mail count:";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -494,5 +532,8 @@
         private System.Windows.Forms.Label labelA;
         private System.Windows.Forms.Label lbHistory;
         private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RadioButton rdbtn2;
+        private System.Windows.Forms.RadioButton rdbtn1;
     }
 }

@@ -11,6 +11,7 @@ using BongDaSo;
 using System.Linq;
 using BongDaSo.Schedule;
 using System.IO;
+using System.Threading;
 
 namespace Tesseract_OCR.Schedule
 {
@@ -44,6 +45,7 @@ namespace Tesseract_OCR.Schedule
 
         public int isrunning =0;
         public CheckingClass checkingClass { get; set; }
+        public int mailCount { get; set; }
         public Schedules2()
         {
             capView = new CapView();
@@ -201,7 +203,10 @@ namespace Tesseract_OCR.Schedule
                     message += this.generatePreviousString(type);
                     this.preType = type;
                     this.preString = vals;
-                    sMS.SendSMS(message,new MailAddress(sendMail),mailPass,new MailAddress(receiveMail));
+                    for (int i = 0; i < mailCount; i++) {
+                        Thread.Sleep(500);
+                        sMS.SendSMS(message, new MailAddress(sendMail), mailPass, new MailAddress(receiveMail));
+                    }
                 }
             }
             catch (Exception ex) 
