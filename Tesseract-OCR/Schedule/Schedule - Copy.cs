@@ -12,6 +12,7 @@ using System.Linq;
 using BongDaSo.Schedule;
 using System.IO;
 using System.Threading;
+using System.CodeDom;
 
 namespace Tesseract_OCR.Schedule
 {
@@ -128,6 +129,10 @@ namespace Tesseract_OCR.Schedule
                             {
                                 resultString = this.preString +  "-tai";
                             }
+
+                            this.historyQueue.putStringIntoQueue(resultString, this.preType);
+                            this.preString = "";
+                            this.preType = "";
                         } break;
                     case "B": {
                             int[] sumArray = this.queue_sum.ToArray();
@@ -149,12 +154,31 @@ namespace Tesseract_OCR.Schedule
                                 this.countLength = 1;
                                 this.preLength = type;
                             }
-                            resultString = this.preString + "-" + type + this.countLength;
+
+                            if (type.Equals("D") && this.countLength >= 3) {
+                                resultString = this.preString + "-" + type + this.countLength;
+                                this.historyQueue.putStringIntoQueue(resultString, this.preType);
+                            }
+                            this.preString = "";
+                            this.preType = "";
+                        } break;
+                    case "C": {
+                            if (sum <= 10)
+                            {
+                                this.preString = this.preString + "-xiu";
+                            }
+                            else
+                            {
+                                this.preString = this.preString + "-tai";
+                            }
+
+                            if (this.preString.Split('-').Length == 5) {
+                                this.historyQueue.putStringIntoQueue(resultString, this.preType);
+                                this.preString = "";
+                                this.preType = "";
+                            }
                         } break;
                 };
-                this.historyQueue.putStringIntoQueue(resultString, this.preType);
-                this.preString = "";
-                this.preType = "";
             }
         }
 
@@ -182,13 +206,16 @@ namespace Tesseract_OCR.Schedule
 
                 //tai - xiu - tai - xiu - tai or xiu - tai - xiu - tai - xiu
                 bool isFiveConditions = this.checkingChainFive(last_i) && !this.checkingChainFive(last_i - 1);
+                bool isD3 = this.preLength.Equals("D") && this.countLength >= 3;
+                //check 10 -10 - 10 or 11 - 11 -11
+                bool isTripple = this.checkTriple(last_i) && !this.checkTriple(last_i - 1);
 
-                if (conditoin_1 || conditoin_2 || isFiveConditions)
+                if (conditoin_1 || conditoin_2 || isFiveConditions || isTripple)
                 {
                     String type = "";
                     if (conditoin_1 || conditoin_2) { type = "A"; }
                     else if (isFiveConditions) { type = "B"; }
-                    //else if (condition_4) { type = "D"; }
+                    else if (isTripple) { type = "C"; }
 
                     string vals = "";
                     if (conditoin_1 || conditoin_2) 
@@ -197,15 +224,21 @@ namespace Tesseract_OCR.Schedule
                     if (isFiveConditions) 
                         vals = list_sum[last_i - 4] + "-" + list_sum[last_i - 3] + "-" 
                             + list_sum[last_i - 2] + "-" + list_sum[last_i - 1] + "-" + list_sum[last_i];
-
+                    if(isTripple)
+                        vals = list_sum[last_i] + "-" + list_sum[last_i - 1] + "-"
+                            + list_sum[last_i - 2];
                     string message = "Chuoi la: " + vals + "\n";
                     if(!type.Equals(""))
                     message += this.generatePreviousString(type);
                     this.preType = type;
                     this.preString = vals;
-                    for (int i = 0; i < mailCount; i++) {
-                        Thread.Sleep(500);
-                        sMS.SendSMS(message, new MailAddress(sendMail), mailPass, new MailAddress(receiveMail));
+                    if (!(isFiveConditions && !isD3))
+                    {
+                        for (int i = 0; i < mailCount; i++)
+                        {
+                            Thread.Sleep(500);
+                            sMS.SendSMS(message, new MailAddress(sendMail), mailPass, new MailAddress(receiveMail));
+                        }
                     }
                 }
             }
@@ -337,6 +370,24 @@ namespace Tesseract_OCR.Schedule
             }
 
             return finalResult;
+        }
+
+        bool checkTriple(int last_i) {
+            int[] list_sum = this.queue_sum.ToArray();
+            //tai - xiu - tai - xiu - tai
+            bool condition_3 = last_i + 1 >= 3
+                && list_sum[last_i] == 10
+                && list_sum[last_i - 1] == 10
+                && list_sum[last_i - 2] == 10
+                && checkingClass.conditionE;
+            //xiu - tai - xiu - tai - xiu
+            bool condition_4 = last_i + 1 >= 3
+                && list_sum[last_i] == 11
+                && list_sum[last_i - 1] == 11
+                && list_sum[last_i - 2] == 11
+                && checkingClass.conditionF;
+
+            return condition_3 || condition_4;
         }
     }
 }

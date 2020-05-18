@@ -12,6 +12,8 @@ namespace BongDaSo
         public bool conditionB { get; set; }
         public bool conditionC { get; set; }
         public bool conditionD { get; set; }
+        public bool conditionE { get; set; }
+        public bool conditionF { get; set; }
 
         public CheckingClass()
         {
@@ -19,6 +21,8 @@ namespace BongDaSo
             this.conditionB = false;
             this.conditionC = false;
             this.conditionD = false;
+            this.conditionE = false;
+            this.conditionF = false;
         }
     }
 }

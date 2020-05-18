@@ -118,5 +118,15 @@ namespace Tesseract_OCR
         {
 
         }
+
+        private void cb_trip10_CheckedChanged(object sender, EventArgs e)
+        {
+            this.schedule.checkingClass.conditionE = cb_trip10.Checked;
+        }
+
+        private void cb_trip11_CheckedChanged(object sender, EventArgs e)
+        {
+            this.schedule.checkingClass.conditionF = cb_trip11.Checked;
+        }
     }
 }
