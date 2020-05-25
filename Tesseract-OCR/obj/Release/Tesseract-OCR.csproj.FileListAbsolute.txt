@@ -120,7 +120,6 @@ C:\Sources\detect.result.SG\Tesseract-OCR\bin\Release\Newtonsoft.Json.dll
 C:\Sources\detect.result.SG\Tesseract-OCR\bin\Release\Tesseract.dll
 C:\Sources\detect.result.SG\Tesseract-OCR\bin\Release\log4net.xml
 C:\Sources\detect.result.SG\Tesseract-OCR\bin\Release\Newtonsoft.Json.xml
-C:\Sources\detect.result.SG\Tesseract-OCR\obj\Release\Tesseract-OCR.csprojAssemblyReference.cache
 C:\Sources\detect.result.SG\Tesseract-OCR\obj\Release\Tesseract_OCR.CapView.resources
 C:\Sources\detect.result.SG\Tesseract-OCR\obj\Release\Tesseract_OCR.Form2.resources
 C:\Sources\detect.result.SG\Tesseract-OCR\obj\Release\BongDaSo.Properties.Resources.resources

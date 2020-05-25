@@ -3058,3 +3058,74 @@ INFO  2020-05-09 07:32:04,770 33835229ms Schedules2             MoveNext        
 ERROR 2020-05-09 07:42:25,378 47767ms Schedules2             MoveNext           - Parameter is not valid.
 ERROR 2020-05-09 07:42:30,264 52653ms Schedules2             MoveNext           - Parameter is not valid.
 ERROR 2020-05-09 07:42:35,294 57683ms Schedules2             MoveNext           - Parameter is not valid.
+INFO  2020-05-25 22:56:05,150 35745ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 22:56:09,668 40263ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 22:56:14,691 45286ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 22:56:19,716 50311ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:56:24,709 55303ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 22:57:36,915 127510ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 22:57:39,650 130245ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 22:57:44,700 135294ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 22:57:49,660 140254ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 22:57:54,704 145299ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 22:57:59,688 150283ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 22:58:04,726 155320ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 22:58:09,683 160278ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:01:06,222 32902ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 23:01:10,811 37491ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 23:01:15,824 42505ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+ERROR 2020-05-25 23:01:15,864 42544ms Schedules2             pushNotification   -    at Tesseract_OCR.Schedule.Schedules2.checkSequenceArray(Int32 last_i) in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 420
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 225
+INFO  2020-05-25 23:01:20,834 47514ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:01:25,852 52533ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:01:30,847 57528ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:02:36,860 22090ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 23:02:41,582 26812ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 23:02:46,565 31795ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 23:02:51,574 36804ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 23:02:56,585 41816ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:03:01,577 46807ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+ERROR 2020-05-25 23:03:01,620 46851ms Schedules2             pushNotification   -    at Tesseract_OCR.Schedule.Schedules2.checkSequenceArray(Int32 last_i) in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 420
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 225
+INFO  2020-05-25 23:03:06,557 51787ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:03:11,578 56809ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:03:16,591 61821ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:03:21,576 66806ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:03:26,588 71819ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:03:31,556 76786ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:03:36,620 81850ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:03:41,605 86835ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:03:46,592 91823ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:04:29,091 22594ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 23:04:33,883 27386ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 23:04:38,909 32413ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:04:43,831 37334ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+ERROR 2020-05-25 23:04:43,871 37374ms Schedules2             pushNotification   -    at Tesseract_OCR.Schedule.Schedules2.checkSequenceArray(Int32 last_i) in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 420
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 225
+INFO  2020-05-25 23:04:48,812 42315ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:04:53,835 47338ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:09:08,613 20114ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:09:13,271 24772ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 23:09:18,262 29764ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 23:09:23,264 34765ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 23:10:40,026 111527ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:10:43,278 114779ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 23:10:48,282 119784ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:10:59,807 131309ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:11:03,232 134734ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:11:08,246 139748ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:11:13,271 144773ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:11:18,265 149766ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:12:11,549 28660ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 23:12:16,295 33406ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 23:12:21,238 38349ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+ERROR 2020-05-25 23:12:21,277 38388ms Schedules2             pushNotification   -    at Tesseract_OCR.Schedule.Schedules2.checkSequenceArray(Int32 last_i) in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 420
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 225
+INFO  2020-05-25 23:12:26,259 43370ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 23:12:31,243 48353ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:12:36,245 53356ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:12:41,244 58355ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:12:46,228 63339ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:12:51,252 68362ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:12:56,258 73369ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:13:01,285 78396ms Schedules2             MoveNext           - >>>>>>>> detect result: 225

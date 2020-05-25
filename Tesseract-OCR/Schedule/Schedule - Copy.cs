@@ -35,6 +35,8 @@ namespace Tesseract_OCR.Schedule
         private String preString = "";
         private String preType = "";
         private String preLength = "";
+        private String pre4String = "";
+        private int count4Length = 0;
         private int countLength = 0; 
         public string sendMail { get; set; }
         public string mailPass { get; set; }
@@ -120,7 +122,9 @@ namespace Tesseract_OCR.Schedule
                 String resultString = "";
                 String type = "";
                 switch (this.preType) {
-                    case "A": {
+                   /* case "A1":
+                    case "A2":
+                        {
                             if (sum <= 10)
                             {
                                 resultString = this.preString + "-xiu";
@@ -129,11 +133,10 @@ namespace Tesseract_OCR.Schedule
                             {
                                 resultString = this.preString +  "-tai";
                             }
-
-                            this.historyQueue.putStringIntoQueue(resultString, this.preType);
+                            this.historyQueue.putStringzIntoQueue(resultString, this.preType);
                             this.preString = "";
                             this.preType = "";
-                        } break;
+                        } break;*/
                     case "B": {
                             int[] sumArray = this.queue_sum.ToArray();
                             int index = sumArray.Length - 1;
@@ -155,7 +158,7 @@ namespace Tesseract_OCR.Schedule
                                 this.preLength = type;
                             }
 
-                            if (type.Equals("D") && this.countLength >= 3) {
+                            if (type.Equals("D") && this.countLength >= 1) { 
                                 resultString = this.preString + "-" + type + this.countLength;
                                 this.historyQueue.putStringIntoQueue(resultString, this.preType);
                             }
@@ -173,11 +176,26 @@ namespace Tesseract_OCR.Schedule
                             }
 
                             if (this.preString.Split('-').Length == 5) {
-                                this.historyQueue.putStringIntoQueue(resultString, this.preType);
+                                this.historyQueue.putStringIntoQueue(this.preString, this.preType);
                                 this.preString = "";
                                 this.preType = "";
                             }
                         } break;
+                    case "A":
+                        {
+                            if (sum <= 10)
+                            {
+                                resultString = this.preString + "-xiu";
+                            }
+                            else
+                            {
+                                resultString = this.preString + "-tai";
+                            }
+                            this.historyQueue.putStringIntoQueue(resultString, this.preType);
+                            this.preString = "";
+                            this.preType = "";
+                        }
+                        break;
                 };
             }
         }
@@ -187,52 +205,57 @@ namespace Tesseract_OCR.Schedule
             {
                 int[] list_sum = this.queue_sum.ToArray();
                 int last_i = list_sum.Length - 1;
-                if (list_sum.Length < 4) return;
-                //xiu - xiu_a - tai - xiu_a
-                bool conditoin_1 = list_sum[last_i] <= 10 
+                if (list_sum.Length < 3) return;
+                /*//xiu - xiu_a - tai - xiu_a
+                bool conditoin_1 = list_sum.Length >= 4
+                    && list_sum[last_i] <= 10 
                     && list_sum[last_i - 1] > 10 
                     && list_sum[last_i - 3] <= 10
                     && list_sum[last_i] == list_sum[last_i - 2]
-                    && list_sum.Length >= 4
                     && checkingClass.conditionB;
 
                 //tai - tai_a - xiu - tai_a
-                bool conditoin_2 = list_sum[last_i] > 10 
+                bool conditoin_2 = list_sum.Length >= 4
+                    && list_sum[last_i] > 10 
                     && list_sum[last_i - 1] <= 10 
                     && list_sum[last_i - 3] > 10
                     && list_sum[last_i] == list_sum[last_i - 2]
-                    && list_sum.Length >= 4
-                    && checkingClass.conditionA;
+                    && checkingClass.conditionA;*/
+                //t - t+1 - t+2 or x - x+1 - x+2
+                bool isSequenceArray = this.checkSequenceArray(last_i) && !this.checkSequenceArray(last_i - 1);
 
                 //tai - xiu - tai - xiu - tai or xiu - tai - xiu - tai - xiu
                 bool isFiveConditions = this.checkingChainFive(last_i) && !this.checkingChainFive(last_i - 1);
-                bool isD3 = this.preLength.Equals("D") && this.countLength >= 3;
+                bool isD2 = this.preLength.Equals("D") && this.countLength >= 1;
                 //check 10 -10 - 10 or 11 - 11 -11
                 bool isTripple = this.checkTriple(last_i) && !this.checkTriple(last_i - 1);
 
-                if (conditoin_1 || conditoin_2 || isFiveConditions || isTripple)
+                if (/*conditoin_1 || conditoin_2 || */isFiveConditions || isTripple || isSequenceArray)
                 {
                     String type = "";
-                    if (conditoin_1 || conditoin_2) { type = "A"; }
-                    else if (isFiveConditions) { type = "B"; }
+                    /*if (conditoin_1) { type = "A1"; }
+                    else if (conditoin_2) { type = "A2"; }
+                    else*/
+                    if (isFiveConditions) { type = "B"; }
                     else if (isTripple) { type = "C"; }
+                    else if (isSequenceArray) { type = "A"; };
 
                     string vals = "";
-                    if (conditoin_1 || conditoin_2) 
+                    /*if (conditoin_1 || conditoin_2) 
                         vals = list_sum[last_i - 3] + "-" + list_sum[last_i - 2] + "-" 
-                            + list_sum[last_i - 1] + "-" + list_sum[last_i];
+                            + list_sum[last_i - 1] + "-" + list_sum[last_i];*/
                     if (isFiveConditions) 
                         vals = list_sum[last_i - 4] + "-" + list_sum[last_i - 3] + "-" 
                             + list_sum[last_i - 2] + "-" + list_sum[last_i - 1] + "-" + list_sum[last_i];
-                    if(isTripple)
-                        vals = list_sum[last_i] + "-" + list_sum[last_i - 1] + "-"
-                            + list_sum[last_i - 2];
+                    if(isTripple || isSequenceArray)
+                        vals = list_sum[last_i-2] + "-" + list_sum[last_i - 1] + "-"
+                            + list_sum[last_i];
                     string message = "Chuoi la: " + vals + "\n";
                     if(!type.Equals(""))
                     message += this.generatePreviousString(type);
                     this.preType = type;
                     this.preString = vals;
-                    if (!(isFiveConditions && !isD3))
+                    if (!(isFiveConditions && !isD2))
                     {
                         for (int i = 0; i < mailCount; i++)
                         {
@@ -240,6 +263,7 @@ namespace Tesseract_OCR.Schedule
                             sMS.SendSMS(message, new MailAddress(sendMail), mailPass, new MailAddress(receiveMail));
                         }
                     }
+                    //this.sendSpecialMail(type, vals);
                 }
             }
             catch (Exception ex) 
@@ -375,19 +399,56 @@ namespace Tesseract_OCR.Schedule
         bool checkTriple(int last_i) {
             int[] list_sum = this.queue_sum.ToArray();
             //tai - xiu - tai - xiu - tai
-            bool condition_3 = last_i + 1 >= 3
+            bool condition_3 = last_i >= 3
                 && list_sum[last_i] == 10
                 && list_sum[last_i - 1] == 10
                 && list_sum[last_i - 2] == 10
                 && checkingClass.conditionE;
             //xiu - tai - xiu - tai - xiu
-            bool condition_4 = last_i + 1 >= 3
+            bool condition_4 = last_i >= 3
                 && list_sum[last_i] == 11
                 && list_sum[last_i - 1] == 11
                 && list_sum[last_i - 2] == 11
                 && checkingClass.conditionF;
 
             return condition_3 || condition_4;
+        }
+
+        bool checkSequenceArray(int last_i) {
+            int[] list_sum = this.queue_sum.ToArray();
+            //tai - xiu - tai - xiu - tai
+            bool condition_3 = last_i + 1 >= 3
+                    && list_sum[last_i] == list_sum[last_i - 1] + 1
+                    && list_sum[last_i - 1] == list_sum[last_i - 2] + 1
+                    && list_sum[last_i] <= 10
+                    && checkingClass.conditionB;
+            //xiu - tai - xiu - tai - xiu
+            bool condition_4 = last_i + 1 >= 3
+                    && list_sum[last_i] == list_sum[last_i - 1] + 1
+                    && list_sum[last_i - 1] == list_sum[last_i - 2] + 1
+                    && list_sum[last_i - 2] > 10
+                    && checkingClass.conditionA;
+
+            return condition_3 || condition_4;
+        }
+
+        void sendSpecialMail(String type, String val) {
+            if (this.pre4String.Equals(type) && this.count4Length >= 6) {
+                string message = "Chuoi la: " + val + " L" + this.count4Length  + "\n";
+                message += this.generatePreviousString("D");
+                string tempString = val + " L" + this.count4Length;
+                this.historyQueue.putStringIntoQueue(tempString, "D");
+                sMS.SendSMS(message, new MailAddress(sendMail), mailPass, new MailAddress(receiveMail));
+            }
+
+            if (this.pre4String != type)
+            {
+                this.count4Length = 1;
+            }
+            else {
+                this.count4Length++;
+            }
+            this.pre4String = type;
         }
     }
 }

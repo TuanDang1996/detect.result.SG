@@ -8613,3 +8613,596 @@ INFO  2020-05-09 17:15:03,470 14088003ms Schedules2             MoveNext        
 INFO  2020-05-09 17:15:08,475 14093008ms Schedules2             MoveNext           - >>>>>>>> detect result: 151
 ERROR 2020-05-12 09:05:58,839 22579ms Schedules2             MoveNext           - Parameter is not valid.
 ERROR 2020-05-12 09:06:05,178 28919ms Schedules2             MoveNext           - Parameter is not valid.
+INFO  2020-05-19 23:06:56,991 166737ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:06:58,080 167826ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:06:59,858 169604ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:07:04,699 174445ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:09:18,466 308212ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:09:23,410 313156ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:09:28,424 318170ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:12:52,482 46417ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:12:53,649 47584ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:12:54,972 48907ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:12:59,964 53899ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-19 23:13:21,168 75103ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:13:36,995 90930ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:14:43,278 157213ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:14:57,778 171713ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:15:13,357 187292ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+ERROR 2020-05-19 23:15:13,943 187879ms Schedules2             pushNotification   -    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 248
+INFO  2020-05-19 23:15:36,888 210823ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:15:52,205 226140ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:16:05,062 238997ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+ERROR 2020-05-19 23:16:05,643 239578ms Schedules2             pushNotification   -    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 248
+INFO  2020-05-19 23:16:10,043 243978ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:17:50,261 344196ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:18:21,166 375101ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:18:26,147 380082ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:18:31,202 385137ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:18:36,091 390026ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+ERROR 2020-05-19 23:18:36,667 390602ms Schedules2             pushNotification   -    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 248
+INFO  2020-05-19 23:18:41,146 395081ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:18:46,114 400049ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:18:51,179 405114ms Schedules2             MoveNext           - >>>>>>>> detect result: 34
+INFO  2020-05-19 23:18:56,126 410061ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+ERROR 2020-05-19 23:18:56,663 410598ms Schedules2             pushNotification   -    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 248
+INFO  2020-05-19 23:19:01,216 415152ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:20:20,045 493980ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:20:25,119 499054ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:20:30,020 503955ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+ERROR 2020-05-19 23:20:58,247 532182ms Schedules2             pushNotification   -    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 248
+INFO  2020-05-19 23:20:59,504 533439ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:21:00,604 534540ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:22:38,597 69128ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:22:43,246 73777ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:22:48,337 78868ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:22:53,249 83779ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:22:59,130 89661ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:23:03,285 93816ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:23:08,271 98802ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:23:15,919 106450ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:23:20,896 111426ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:23:25,907 116438ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:23:30,892 121423ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:23:35,858 126389ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:23:40,865 131396ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:23:45,848 136379ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:23:50,818 141349ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:23:55,881 146411ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:24:00,884 151415ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:24:05,841 156372ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:24:10,826 161357ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:24:15,860 166391ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:24:20,839 171370ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:24:25,882 176413ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:24:30,835 181366ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:24:35,807 186338ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:24:40,839 191370ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:24:45,969 196500ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:24:50,946 201476ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:24:55,917 206447ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:25:32,235 242766ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:25:35,934 246465ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:28:36,921 51494ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:28:41,537 56110ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:28:46,643 61216ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:28:51,620 66193ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:28:56,988 71560ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:29:01,589 76162ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:29:06,601 81174ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:29:11,565 86138ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:29:16,560 91133ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:29:22,228 96801ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:29:26,635 101208ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-19 23:29:31,616 106189ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:29:36,617 111190ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:29:41,577 116150ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-19 23:29:47,025 121598ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-19 23:29:51,687 126260ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:29:56,610 131183ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:30:01,617 136190ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:30:06,605 141178ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:30:12,572 147144ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:30:16,654 151227ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:30:21,592 156165ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:30:26,590 161163ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:30:32,592 167165ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:30:36,511 171083ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:30:41,590 176163ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:30:46,624 181197ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:30:52,419 186992ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:30:56,613 191186ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:31:01,552 196125ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:31:06,531 201103ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:31:15,757 210330ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:31:16,898 211471ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:31:21,578 216151ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:31:26,635 221208ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:31:31,576 226149ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:31:36,608 231181ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:31:42,555 237128ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:31:46,529 241102ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:31:51,648 246221ms Schedules2             MoveNext           - >>>>>>>> detect result: 346
+INFO  2020-05-19 23:31:56,573 251146ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:02,867 257440ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:06,539 261112ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:11,554 266126ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:16,593 271166ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:21,543 276115ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:26,576 281149ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:31,539 286112ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:36,585 291158ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:41,625 296198ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:46,519 301092ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:51,566 306139ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:32:56,541 311113ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:33:01,576 316149ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:33:06,574 321147ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:33:11,580 326153ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:33:16,582 331155ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:33:21,647 336220ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:33:26,524 341097ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:33:31,605 346178ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:33:37,401 351974ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:33:41,491 356064ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:33:46,567 361139ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:33:51,602 366175ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:37:41,276 53567ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:37:45,909 58201ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:37:50,902 63194ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:37:55,911 68203ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:38:01,294 73586ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:38:05,915 78206ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:38:10,917 83208ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:38:15,919 88210ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:38:20,849 93141ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:38:26,502 98793ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:38:30,906 103197ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:38:35,907 108198ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:38:40,983 113275ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:38:46,198 118489ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:38:50,962 123253ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:38:55,899 128191ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:39:00,926 133217ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:39:06,725 139016ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:39:10,861 143152ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:39:15,859 148151ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:39:20,917 153208ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:39:25,898 158189ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:39:31,132 163424ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:39:35,860 168151ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:39:40,891 173182ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:39:45,919 178211ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:39:52,317 184609ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:39:55,899 188191ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:40:00,925 193217ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:40:05,912 198203ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:40:10,921 203212ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:40:15,898 208190ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:40:20,912 213203ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:40:25,859 218151ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:40:30,960 223251ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:40:35,891 228182ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:40:40,883 233175ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:40:45,906 238198ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:40:50,883 243174ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:40:56,657 248949ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:41:00,918 253210ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:41:05,867 258158ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:41:10,855 263146ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:41:15,932 268224ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:46:27,022 48766ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:46:31,702 53445ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:46:36,674 58418ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:46:41,669 63413ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:46:47,043 68787ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:46:51,648 73392ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:46:56,668 78412ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:47:01,716 83460ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:47:07,029 88773ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:47:11,630 93374ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:47:16,710 98454ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:47:21,695 103439ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:47:26,979 108723ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:47:31,678 113422ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:47:36,635 118379ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:47:41,670 123414ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:47:46,834 128578ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:47:51,573 133316ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:47:56,662 138406ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:48:01,661 143405ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:48:06,865 148609ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:48:11,628 153372ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:48:16,624 158368ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:48:21,673 163417ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:48:27,091 168835ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:48:31,669 173412ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:48:36,620 178364ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:48:41,675 183419ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:48:50,504 192248ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:48:51,713 193456ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:48:56,667 198411ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:49:01,707 203451ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:49:06,645 208389ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:49:11,640 213384ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:49:16,609 218353ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:49:21,636 223380ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:49:26,587 228330ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-19 23:49:31,715 233459ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:49:36,701 238445ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:49:45,916 247660ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:49:46,947 248691ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:49:51,663 253407ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:49:56,624 258368ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:50:01,597 263340ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:50:10,700 272444ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:50:11,611 273355ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:50:16,596 278340ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:50:21,671 283415ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:50:26,621 288365ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:50:31,640 293384ms Schedules2             MoveNext           - >>>>>>>> detect result: 344
+INFO  2020-05-19 23:50:36,622 298366ms Schedules2             MoveNext           - >>>>>>>> detect result: 344
+INFO  2020-05-19 23:50:41,671 303415ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:50:46,668 308412ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:50:51,671 313415ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:50:56,857 318601ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:51:01,659 323403ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:51:06,658 328402ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:51:11,687 333431ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:51:16,687 338431ms Schedules2             MoveNext           - >>>>>>>> detect result: 345
+INFO  2020-05-19 23:51:21,636 343379ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:51:27,928 349672ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-19 23:51:31,681 353425ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:51:36,694 358438ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:51:41,647 363391ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-19 23:51:46,710 368453ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-20 07:04:05,997 258643ms Schedules2             MoveNext           - >>>>>>>> detect result: 253
+INFO  2020-05-20 07:04:10,609 263255ms Schedules2             MoveNext           - >>>>>>>> detect result: 253
+INFO  2020-05-20 07:04:15,670 268316ms Schedules2             MoveNext           - >>>>>>>> detect result: 136
+INFO  2020-05-20 07:04:20,644 273290ms Schedules2             MoveNext           - >>>>>>>> detect result: 136
+INFO  2020-05-20 07:04:25,670 278316ms Schedules2             MoveNext           - >>>>>>>> detect result: 136
+INFO  2020-05-20 07:04:30,624 283269ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:04:35,720 288366ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:04:40,695 293341ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-20 07:04:45,744 298390ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-20 07:04:50,611 303256ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-20 07:04:55,617 308263ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:05:00,653 313298ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:05:05,664 318310ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:05:10,625 323271ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:05:15,624 328270ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:05:20,635 333281ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:08:23,739 47208ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:08:28,847 52316ms Schedules2             MoveNext           - >>>>>>>> detect result: 6
+INFO  2020-05-20 07:08:33,292 56760ms Schedules2             MoveNext           - >>>>>>>> detect result: 136
+INFO  2020-05-20 07:08:38,284 61753ms Schedules2             MoveNext           - >>>>>>>> detect result: 136
+INFO  2020-05-20 07:08:43,327 66796ms Schedules2             MoveNext           - >>>>>>>> detect result: 253
+INFO  2020-05-20 07:08:48,311 71779ms Schedules2             MoveNext           - >>>>>>>> detect result: 251
+INFO  2020-05-20 07:08:53,334 76803ms Schedules2             MoveNext           - >>>>>>>> detect result: 254
+INFO  2020-05-20 07:08:58,272 81741ms Schedules2             MoveNext           - >>>>>>>> detect result: 254
+INFO  2020-05-20 07:09:03,303 86772ms Schedules2             MoveNext           - >>>>>>>> detect result: 254
+INFO  2020-05-20 07:12:26,045 55225ms Schedules2             MoveNext           - >>>>>>>> detect result: 254
+INFO  2020-05-20 07:12:30,903 60084ms Schedules2             MoveNext           - >>>>>>>> detect result: 136
+INFO  2020-05-20 07:12:35,845 65025ms Schedules2             MoveNext           - >>>>>>>> detect result: 136
+INFO  2020-05-20 07:12:40,838 70018ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:12:45,815 74996ms Schedules2             MoveNext           - >>>>>>>> detect result: 253
+INFO  2020-05-20 07:12:58,123 87303ms Schedules2             MoveNext           - >>>>>>>> detect result: 253
+INFO  2020-05-20 07:13:00,841 90021ms Schedules2             MoveNext           - >>>>>>>> detect result: 253
+INFO  2020-05-20 07:13:05,826 95007ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:13:10,855 100036ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:13:15,794 104974ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:13:21,067 110247ms Schedules2             MoveNext           - >>>>>>>> detect result: 2
+INFO  2020-05-20 07:13:25,898 115079ms Schedules2             MoveNext           - >>>>>>>> detect result: 251
+INFO  2020-05-20 07:13:30,848 120028ms Schedules2             MoveNext           - >>>>>>>> detect result: 252
+INFO  2020-05-20 07:13:35,805 124986ms Schedules2             MoveNext           - >>>>>>>> detect result: 252
+INFO  2020-05-20 07:13:40,841 130022ms Schedules2             MoveNext           - >>>>>>>> detect result: 252
+INFO  2020-05-20 07:13:45,857 135038ms Schedules2             MoveNext           - >>>>>>>> detect result: 252
+INFO  2020-05-20 07:13:50,881 140061ms Schedules2             MoveNext           - >>>>>>>> detect result: 252
+INFO  2020-05-20 07:15:59,157 268337ms Schedules2             MoveNext           - >>>>>>>> detect result: 252
+INFO  2020-05-20 07:16:04,168 273349ms Schedules2             MoveNext           - >>>>>>>> detect result: 253
+INFO  2020-05-20 07:16:09,259 278439ms Schedules2             MoveNext           - >>>>>>>> detect result: 253
+INFO  2020-05-20 07:16:14,151 283331ms Schedules2             MoveNext           - >>>>>>>> detect result: 136
+INFO  2020-05-20 07:16:19,169 288349ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:16:24,225 293405ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:16:29,368 298549ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:16:34,246 303426ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-20 07:17:15,626 344806ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:17:19,163 348343ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:17:24,149 353329ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-20 07:17:29,164 358345ms Schedules2             MoveNext           - >>>>>>>> detect result: 341
+INFO  2020-05-20 07:17:34,199 363379ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-20 07:19:10,654 52632ms Schedules2             MoveNext           - >>>>>>>> detect result: 342
+INFO  2020-05-20 07:19:15,121 57099ms Schedules2             MoveNext           - >>>>>>>> detect result: 343
+INFO  2020-05-20 07:19:20,138 62116ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:19:25,151 67129ms Schedules2             MoveNext           - >>>>>>>> detect result: 136
+INFO  2020-05-20 07:19:30,136 72114ms Schedules2             MoveNext           - >>>>>>>> detect result: 253
+INFO  2020-05-20 07:19:35,966 77944ms Schedules2             MoveNext           - >>>>>>>> detect result: 253
+INFO  2020-05-20 07:19:40,196 82174ms Schedules2             MoveNext           - >>>>>>>> detect result: 252
+INFO  2020-05-20 07:19:45,123 87101ms Schedules2             MoveNext           - >>>>>>>> detect result: 252
+INFO  2020-05-20 07:19:50,117 92095ms Schedules2             MoveNext           - >>>>>>>> detect result: 251
+INFO  2020-05-20 07:19:55,098 97076ms Schedules2             MoveNext           - >>>>>>>> detect result: 251
+INFO  2020-05-20 07:20:00,169 102147ms Schedules2             MoveNext           - >>>>>>>> detect result: 251
+INFO  2020-05-20 07:20:05,080 107058ms Schedules2             MoveNext           - >>>>>>>> detect result: 251
+INFO  2020-05-20 07:20:10,133 112111ms Schedules2             MoveNext           - >>>>>>>> detect result: 251
+INFO  2020-05-20 07:20:15,072 117050ms Schedules2             MoveNext           - >>>>>>>> detect result: 251
+INFO  2020-05-20 07:20:20,163 122141ms Schedules2             MoveNext           - >>>>>>>> detect result: 251
+INFO  2020-05-20 07:20:25,447 127426ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:20:30,113 132091ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:20:35,094 137072ms Schedules2             MoveNext           - >>>>>>>> detect result: 254
+INFO  2020-05-20 07:20:40,115 142093ms Schedules2             MoveNext           - >>>>>>>> detect result: 236
+INFO  2020-05-20 07:20:45,114 147092ms Schedules2             MoveNext           - >>>>>>>> detect result: 236
+INFO  2020-05-20 07:20:50,266 152244ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:20:55,169 157147ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:21:00,163 162141ms Schedules2             MoveNext           - >>>>>>>> detect result: 336
+INFO  2020-05-20 07:21:05,175 167153ms Schedules2             MoveNext           - >>>>>>>> detect result: 331
+INFO  2020-05-20 07:21:10,146 172124ms Schedules2             MoveNext           - >>>>>>>> detect result: 331
+INFO  2020-05-20 07:21:15,146 177124ms Schedules2             MoveNext           - >>>>>>>> detect result: 331
+INFO  2020-05-20 07:21:20,265 182243ms Schedules2             MoveNext           - >>>>>>>> detect result: 331
+INFO  2020-05-20 07:21:25,175 187153ms Schedules2             MoveNext           - >>>>>>>> detect result: 331
+INFO  2020-05-20 07:21:30,143 192121ms Schedules2             MoveNext           - >>>>>>>> detect result: 331
+INFO  2020-05-20 07:21:35,137 197115ms Schedules2             MoveNext           - >>>>>>>> detect result: 331
+INFO  2020-05-20 07:21:56,904 218882ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:22:01,938 223916ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:22:06,852 228830ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:22:11,888 233866ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:22:16,955 238933ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:22:21,952 243930ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:22:26,993 248971ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:22:31,925 253903ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:22:36,887 258865ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:22:41,917 263895ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:22:46,960 268938ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:22:51,894 273872ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:22:56,945 278923ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:23:01,953 283931ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:23:07,965 289943ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:23:11,904 293882ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:23:16,919 298897ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:23:22,901 304879ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:23:26,927 308905ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:23:31,954 313933ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:23:36,908 318886ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:23:41,932 323910ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:23:46,888 328866ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:23:51,945 333923ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:23:56,890 338869ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:24:01,926 343904ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:24:06,945 348923ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:24:11,895 353873ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:24:16,877 358855ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:24:21,980 363958ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:24:26,889 368867ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:24:31,870 373848ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:24:36,945 378923ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:24:42,788 384766ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:24:47,040 389018ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:24:51,967 393945ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:24:56,828 398806ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:25:01,888 403866ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:25:06,832 408810ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:25:11,938 413916ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:25:16,936 418914ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:25:21,913 423891ms Schedules2             MoveNext           - >>>>>>>> detect result: 339
+INFO  2020-05-20 07:25:26,904 428882ms Schedules2             MoveNext           - >>>>>>>> detect result: 339
+INFO  2020-05-20 07:25:31,905 433883ms Schedules2             MoveNext           - >>>>>>>> detect result: 339
+INFO  2020-05-20 07:25:36,908 438886ms Schedules2             MoveNext           - >>>>>>>> detect result: 339
+INFO  2020-05-20 07:25:41,885 443863ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:25:46,908 448886ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:25:51,993 453971ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:25:56,869 458847ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:26:01,902 463880ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:26:06,902 468880ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:26:12,354 474332ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:26:16,834 478812ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:26:21,943 483921ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:26:26,925 488903ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:27:01,120 523098ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:30:51,775 54447ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:30:56,485 59157ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:31:01,483 64155ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:31:06,580 69251ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:31:11,611 74283ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:31:16,564 79235ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:31:21,591 84263ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:31:26,589 89261ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:31:31,550 94222ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:31:36,584 99256ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:31:41,556 104228ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:31:46,575 109247ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:31:51,624 114295ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:31:57,559 120231ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:32:01,583 124254ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:32:06,579 129251ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:32:11,527 134198ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:32:16,596 139268ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:32:21,581 144252ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:32:26,562 149234ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:32:31,636 154307ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:32:36,593 159264ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:32:41,566 164238ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:32:46,579 169250ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:32:51,692 174364ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:32:56,570 179242ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:33:01,531 184203ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:33:06,569 189241ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:33:11,517 194188ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:33:16,581 199253ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:33:21,606 204277ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:33:26,535 209206ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:33:31,529 214201ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:33:36,535 219206ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:33:41,529 224200ms Schedules2             MoveNext           - >>>>>>>> detect result: 334
+INFO  2020-05-20 07:33:46,512 229183ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:33:51,593 234264ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:33:56,594 239266ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:34:01,590 244261ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:34:06,597 249269ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:34:11,552 254224ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:34:17,494 260166ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:34:21,596 264268ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:34:26,558 269230ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:34:31,589 274261ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:34:36,577 279249ms Schedules2             MoveNext           - >>>>>>>> detect result: 331
+INFO  2020-05-20 07:34:41,533 284205ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:34:46,531 289202ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:34:51,538 294210ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:34:56,527 299198ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:35:01,557 304229ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:35:06,513 309185ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:35:11,566 314238ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:35:16,596 319268ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:35:22,245 324916ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:35:26,574 329246ms Schedules2             MoveNext           - >>>>>>>> detect result: 332
+INFO  2020-05-20 07:35:31,580 334251ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:35:36,543 339215ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:35:41,563 344234ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:35:47,188 349860ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:35:51,620 354291ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:35:56,579 359251ms Schedules2             MoveNext           - >>>>>>>> detect result: 33
+INFO  2020-05-20 07:36:01,617 364289ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:36:06,624 369295ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:36:11,639 374310ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:36:16,592 379263ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:36:21,638 384310ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:36:26,589 389261ms Schedules2             MoveNext           - >>>>>>>> detect result: 332
+INFO  2020-05-20 07:45:11,175 41526ms Schedules2             MoveNext           - >>>>>>>> detect result: 332
+INFO  2020-05-20 07:45:15,723 46074ms Schedules2             MoveNext           - >>>>>>>> detect result: 332
+INFO  2020-05-20 07:45:20,829 51181ms Schedules2             MoveNext           - >>>>>>>> detect result: 332
+INFO  2020-05-20 07:45:25,783 56135ms Schedules2             MoveNext           - >>>>>>>> detect result: 33
+INFO  2020-05-20 07:45:30,735 61086ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:45:35,845 66196ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:45:40,777 71129ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:45:45,701 76052ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:45:50,765 81116ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:45:55,822 86174ms Schedules2             MoveNext           - >>>>>>>> detect result: 332
+INFO  2020-05-20 07:46:00,834 91185ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:46:05,750 96101ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:46:10,729 101080ms Schedules2             MoveNext           - >>>>>>>> detect result: 332
+INFO  2020-05-20 07:46:15,816 106168ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:46:20,828 111179ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:46:25,845 116196ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:46:30,790 121141ms Schedules2             MoveNext           - >>>>>>>> detect result: 332
+INFO  2020-05-20 07:46:35,840 126191ms Schedules2             MoveNext           - >>>>>>>> detect result: 331
+INFO  2020-05-20 07:46:40,745 131096ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:46:45,857 136208ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:46:50,814 141166ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:46:55,853 146205ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:47:00,787 151138ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:47:05,769 156120ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:47:10,820 161172ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:47:15,791 166142ms Schedules2             MoveNext           - >>>>>>>> detect result: 33
+INFO  2020-05-20 07:47:20,825 171177ms Schedules2             MoveNext           - >>>>>>>> detect result: 332
+INFO  2020-05-20 07:47:25,786 176138ms Schedules2             MoveNext           - >>>>>>>> detect result: 331
+INFO  2020-05-20 07:47:30,798 181149ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:47:35,810 186162ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:47:40,789 191140ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:47:45,782 196133ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:47:50,739 201091ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:49:35,985 71005ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:49:40,579 75599ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:49:45,521 80541ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:49:50,613 85633ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:49:55,532 90552ms Schedules2             MoveNext           - >>>>>>>> detect result: 335
+INFO  2020-05-20 07:50:00,578 95598ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:50:05,614 100634ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:50:10,565 105584ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:50:15,511 110531ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:50:20,454 115473ms Schedules2             MoveNext           - >>>>>>>> detect result: 333
+INFO  2020-05-20 07:50:25,538 120558ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:50:30,513 125533ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:50:35,524 130544ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:50:40,478 135498ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:50:45,567 140586ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:50:50,540 145560ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:50:55,495 150515ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-20 07:51:00,512 155532ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:46:11,941 106720ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:46:16,829 111608ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:46:21,833 116612ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:47:23,866 178645ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:47:28,860 183639ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:47:42,730 197509ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:47:47,694 202473ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:48:21,024 235803ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:48:25,985 240764ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:48:30,986 245765ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:48:55,466 270245ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 22:49:00,404 275183ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 22:49:05,469 280248ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 22:49:10,443 285222ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+ERROR 2020-05-25 22:49:10,472 285251ms Schedules2             pushNotification   -    at Tesseract_OCR.Schedule.Schedules2.checkSequenceArray(Int32 last_i) in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 418
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 225
+INFO  2020-05-25 22:49:15,442 290221ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 22:49:20,484 295263ms Schedules2             MoveNext           - >>>>>>>> detect result: 226
+INFO  2020-05-25 22:55:00,891 29532ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 22:55:05,688 34329ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 22:55:10,601 39242ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 22:55:15,629 44270ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+ERROR 2020-05-25 22:55:15,658 44299ms Schedules2             pushNotification   -    at Tesseract_OCR.Schedule.Schedules2.checkSequenceArray(Int32 last_i) in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 418
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 225
+INFO  2020-05-25 22:55:20,621 49262ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 23:13:47,764 20077ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 23:13:52,498 24811ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 23:13:57,493 29806ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+ERROR 2020-05-25 23:13:57,518 29831ms Schedules2             pushNotification   -    at Tesseract_OCR.Schedule.Schedules2.checkSequenceArray(Int32 last_i) in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 418
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 225
+INFO  2020-05-25 23:14:02,480 34793ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:15:42,018 20843ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:16:25,089 37789ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 23:16:29,888 42588ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+INFO  2020-05-25 23:16:34,869 47570ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:16:39,889 52589ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:16:44,822 57523ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+ERROR 2020-05-25 23:16:55,895 68595ms Schedules2             pushNotification   -    at System.Net.Mail.DotAtomReader.ReadReverse(String data, Int32 index)
+   at System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 263
+INFO  2020-05-25 23:16:57,164 69864ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:16:59,848 72548ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:17:04,855 77555ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:17:09,855 82555ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:17:14,822 87522ms Schedules2             MoveNext           - >>>>>>>> detect result: 22
+INFO  2020-05-25 23:17:19,829 92530ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:17:24,840 97541ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:17:29,845 102545ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:17:34,833 107533ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:17:39,871 112571ms Schedules2             MoveNext           - >>>>>>>> detect result: 222
+INFO  2020-05-25 23:17:44,866 117567ms Schedules2             MoveNext           - >>>>>>>> detect result: 223
+ERROR 2020-05-25 23:17:45,422 118122ms Schedules2             pushNotification   -    at System.Net.Mail.DotAtomReader.ReadReverse(String data, Int32 index)
+   at System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 263
+INFO  2020-05-25 23:17:49,820 122520ms Schedules2             MoveNext           - >>>>>>>> detect result: 224
+INFO  2020-05-25 23:17:54,828 127528ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:17:59,874 132575ms Schedules2             MoveNext           - >>>>>>>> detect result: 225
+INFO  2020-05-25 23:18:04,835 137536ms Schedules2             MoveNext           - >>>>>>>> detect result: 227
+INFO  2020-05-25 23:18:09,864 142564ms Schedules2             MoveNext           - >>>>>>>> detect result: 
+INFO  2020-05-25 23:18:14,895 147595ms Schedules2             MoveNext           - >>>>>>>> detect result: 228
+INFO  2020-05-25 23:18:19,870 152571ms Schedules2             MoveNext           - >>>>>>>> detect result: 229
+ERROR 2020-05-25 23:18:20,413 153113ms Schedules2             pushNotification   -    at System.Net.Mail.DotAtomReader.ReadReverse(String data, Int32 index)
+   at System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at Tesseract_OCR.Schedule.Schedules2.pushNotification() in C:\Sources\detect.result.SG\Tesseract-OCR\Schedule\Schedule - Copy.cs:line 263
+INFO  2020-05-25 23:18:24,918 157619ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:18:29,847 162548ms Schedules2             MoveNext           - >>>>>>>> detect result: 2210
+INFO  2020-05-25 23:18:34,893 167594ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:18:39,955 172655ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:18:44,853 177554ms Schedules2             MoveNext           - >>>>>>>> detect result: 2210
+INFO  2020-05-25 23:18:49,920 182620ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:18:54,905 187605ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:18:59,905 192605ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:19:04,894 197595ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:19:09,890 202590ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:19:14,880 207580ms Schedules2             MoveNext           - >>>>>>>> detect result: 221
+INFO  2020-05-25 23:19:19,871 212571ms Schedules2             MoveNext           - >>>>>>>> detect result: 221

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms.VisualStyles;
 
 namespace BongDaSo.Schedule
 {
@@ -15,7 +16,7 @@ namespace BongDaSo.Schedule
 
         public void putStringIntoQueue(String val, String type) {
             switch (type) {
-                case "A": 
+                case "A":
                     {
                         this.queueA.Enqueue(val);
                         if (this.queueA.Count > 3) this.queueA.Dequeue();
@@ -56,8 +57,11 @@ namespace BongDaSo.Schedule
                     {
                         return this.queueC;
                     }
-                default:
+                case "D":
                     {
+                        return this.queueD;
+                    }
+                default: {
                         return this.queueD;
                     }
             }

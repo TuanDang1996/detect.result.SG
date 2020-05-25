@@ -28,6 +28,8 @@ namespace Tesseract_OCR
             cbConditionB.Checked = true;
             cbConditionC.Checked = true;
             cbConditionD.Checked = true;
+            cb_trip10.Checked = true;
+            cb_trip11.Checked = true;
             this.rdbtn1.Checked = true;
         }
 
@@ -73,6 +75,7 @@ namespace Tesseract_OCR
                     this.lblScanTotal.Text = this.schedule.sumScores.ToString();
                     this.labelA.Text = this.schedule.generatePreviousString("A");
                     this.labelB.Text = this.schedule.generatePreviousString("B");
+                    this.labelC.Text = this.schedule.generatePreviousString("C");
                     this.lbHistory.Text = this.schedule.getHistory();
                 }
             }
